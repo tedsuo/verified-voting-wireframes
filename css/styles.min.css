@@ -1,4 +1,5 @@
 .clear{clear:both;}
+ul,ol{margin:0 0 9px 15px;padding:0;}
 #main{padding-top:40px;}
 .navbar-inner{background-color:#bbbbbb;background-image:none;padding-left:20px;padding-right:20px;box-shadow:none;}
 .navbar .nav>li>a{color:#000000;float:none;line-height:19px;padding:10px 10px 11px;text-decoration:none;text-shadow:none;}
@@ -23,4 +24,4 @@ h1.title{font-size:36px;line-height:46px;margin-top:12px;}
 .hero-unit p{text-align:justify;}
 #hero-logo{float:left;margin-right:18px;}
 .hero-read-more{float:right;display:block;}
-@media (max-width:480px){.hero-unit p{display:none;} .hero-read-more{float:none;margin-top:8px;}}
+@media (max-width:480px){.hero-unit h1{font-size:30px;} .hero-unit p{display:none;} .hero-read-more{float:none;margin-top:8px;}}

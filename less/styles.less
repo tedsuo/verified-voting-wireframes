@@ -4,6 +4,12 @@
 .clear{
   clear: both;
 }
+
+ul, ol {
+  margin: 0 0 9px 15px;
+  padding: 0;
+}
+
 /* Layout */
 #main{
   padding-top: @navbarHeight;
@@ -128,6 +134,9 @@ h1.title{
 }
 
 @media (max-width: 480px) {
+  .hero-unit h1 {
+    font-size: 30px;
+  }
   .hero-unit p{
     display: none;
   }

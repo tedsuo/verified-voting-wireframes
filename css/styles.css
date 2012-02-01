@@ -1,6 +1,10 @@
 .clear {
   clear: both;
 }
+ul, ol {
+  margin: 0 0 9px 15px;
+  padding: 0;
+}
 /* Layout */
 #main {
   padding-top: 40px;
@@ -116,6 +120,9 @@ h1.title {
   display: block;
 }
 @media (max-width: 480px) {
+  .hero-unit h1 {
+    font-size: 30px;
+  }
   .hero-unit p {
     display: none;
   }
