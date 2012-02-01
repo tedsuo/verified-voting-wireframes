@@ -23,3 +23,4 @@ h1.title{font-size:36px;line-height:46px;margin-top:12px;}
 .hero-unit p{text-align:justify;}
 #hero-logo{float:left;margin-right:18px;}
 .hero-read-more{float:right;display:block;}
+@media (max-width:480px){.hero-unit p{display:none;} .hero-read-more{float:none;margin-top:8px;}}

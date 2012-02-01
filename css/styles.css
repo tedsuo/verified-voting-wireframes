@@ -115,3 +115,12 @@ h1.title {
   float: right;
   display: block;
 }
+@media (max-width: 480px) {
+  .hero-unit p {
+    display: none;
+  }
+  .hero-read-more {
+    float: none;
+    margin-top: 8px;
+  }
+}
