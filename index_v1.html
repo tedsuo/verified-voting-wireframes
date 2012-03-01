@@ -48,7 +48,7 @@
               <div class="nav-collapse">
                 <ul class="nav">
                   <li class="">
-                    <a href="./base-css.html">Search</a>
+                    <a href="./search.html">Search</a>
                   </li>
                   <li class="">
                     <a href="./base-css.html">News</a>
@@ -103,9 +103,12 @@
                   </li>
                 </ul>
                 
-                <form id="search-form" class="pull-right form-search full-only" action="email5.php" method="post">
-                      <input name="Email" placeholder="Search" id="email-signup" class="input-medium search-query" type="text">
-                      <button class="btn" type="submit">Go</button>
+                <form id="search-form" 
+                      class="pull-right form-search full-only" 
+                      action="/search.html" 
+                      method="get" >
+                  <input name="keywords" placeholder="Search" id="email-signup" class="input-medium search-query" type="text">
+                  <button class="btn" type="submit">Go</button>
                 </form>
 
                 <div id="action-items" class="pull-right full-only">

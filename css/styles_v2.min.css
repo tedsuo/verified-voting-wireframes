@@ -15,7 +15,12 @@ ul,ol{margin:0 0 9px 15px;padding:0;}
 #search-form .btn{margin:0;}
 #footer-nav ul{display:inline-block;}
 .thumbnail{border:none;border-radius:0;box-shadow:none;display:block;line-height:1;padding:0 6px 6px 6px;}
+.pagination-header{margin-top:28px;}
 .date{font-weight:bold;}
+.tilde{font-family:Times New Roman;font-size:22px;font-weight:normal;padding:7px 8px;}
+.filter-btn{display:block;margin-bottom:6px;}
+.date-nav{margin:16px 0;}
+.search-divider{margin:0;}
 h1.title{font-size:36px;line-height:46px;margin-top:12px;}
 #right-side{float:right;}
 #left-side{padding-top:46px;}
