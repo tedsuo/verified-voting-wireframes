@@ -24,6 +24,8 @@ ul.inline{margin:0;}
 .date-nav{margin:16px 0;}
 .search-divider{margin:3px 0;border:none;}
 .alert-info.alert-clear{background:transparent;border:none;padding:8px 0;}
+.disabled a{color:#666666;}
+.active a{font-weight:bold;}
 h1.title{font-size:36px;line-height:46px;margin-top:12px;}
 #right-side{float:right;}
 #left-side{padding-top:46px;}
