@@ -91,6 +91,9 @@ ul, ol {
     line-height: 1;
     padding: 0 6px 6px 6px;
 }
+ul.inline{
+  margin: 0;
+}
 .pagination-header{
   margin-top: 28px;
 }
@@ -104,7 +107,10 @@ ul, ol {
     font-weight: normal;
     padding: 7px 8px;
 }
-
+.inline li{
+  display: inline;
+  list-style:none;
+}
 .filter-btn{
   display: block;
   margin-bottom: 6px;
@@ -113,7 +119,13 @@ ul, ol {
   margin:16px 0;
 }
 .search-divider{
-  margin: 0;
+  margin: 3px 0;
+  border: none;
+}
+.alert-info.alert-clear{
+  background: transparent;
+  border: none;
+  padding: 8px 0;
 }
 /* Content Page */
 h1.title{
